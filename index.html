@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+   
     
 <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
@@ -41,7 +42,7 @@
             <li><a>Contact</a></li>
           </ul>
         </div>
-        <a class="btn btn-ghost text-4xl text-[#E6533C] font-bold ">Fitness</a>
+        <a class="btn btn-ghost text-4xl md:ml-[500px] lg:ml-0 ml-[200px] text-black font-bold ">Fitness</a>
       </div>
       <div class="navbar-center hidden lg:flex">
         <ul class="menu menu-horizontal px-1 border rounded-3xl">
@@ -167,17 +168,109 @@
 
 <!-- bmi calculator -->
 
-<section class=" lg:mb-[100px] md:mb-10 mb-10 lg:ml-[300px] ">
-  <h1 class="lg:text-5xl ml-6 md:text-5xl md:w-[576px] md:ml-6 sm:w-[318px] text-3xl font-bold">BMI Calculator</h1>
-  <p class="lg:w-[671px] ml-6   text-[#B9B9B9] md:w-[475px]  h-[48px]  mt-4">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+<section class="lg:mb-[100px] md:mb-10 flex flex-col justify-center items-center mb-10">
+  <h1 class="lg:text-5xl md:text-5xl md:w-[576px] w-[318px] lg:w-[353px] text-3xl font-bold text-center">BMI Calculator</h1>
+  <p class="lg:w-[671px] text-[#B9B9B9] text-center md:w-[475px] h-[48px] mt-4">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
 </section>
+
 
 <!-- main part bmi -->
 
 <section>
   <!-- left side -->
     
+<div class="lg:flex lg:items-center ">
+  <div>
+    <section class=" lg:mb-0 md:mb-5 mb-5  lg:ml-[280px] ">
+      <h1 class="lg:text-3xl ml-6 md:text-5xl md:w-[576px] md:ml-6 sm:w-[318px] text-3xl font-bold">Calculate your BMI</h1>
+      <p class="lg:w-[671px] ml-6   text-[#B9B9B9] md:w-[475px]  h-[48px] lg:text-sm  mt-4">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+    </section>
+    <section class="mb-[100px] lg:ml-[300px] md:ml-5 ml-5">
+      <div>
+      <input type="text" placeholder="Height/cm"  class="lg:w-72 md:w-[336px] md:h-[48px] w-[170px] h-[48px] lg:h-[48px]  border px-3 rounded-xl">
+      <input type="text" placeholder="Weight/kg"  class="lg:w-72 md:w-[336px] md:h-[48px] w-[170px] h-[48px] lg:ml-4 lg:h-[48px]  border px-3 rounded-xl">
+      </div>
+      <div class="lg:mt-5 md:mt-5 mt-5 ">
+        <input type="text" placeholder="Age"  class="md:w-[336px] md:h-[48px] w-[170px] h-[48px] lg:w-72 lg:h-[48px]   border px-3 rounded-xl">
+      <input type="text" placeholder="Sex"  class="  md:w-[336px] md:h-[48px] w-[170px] h-[48px] lg:w-72 lg:ml-4 lg:h-[48px]    border px-3 rounded-xl">
+      </div>
+    <div class="">
+      <div>
+        <input type="text" placeholder="Your BMI point is "  class="lg:w-72 w-[345px] h-[48px] lg:mt-4 mt-4 md:w-[336px] md:h-[48px] md:mt-5 lg:h-[48px] border px-3 rounded-xl">
+        <input type="text" placeholder="Status is "  class="lg:w-72 lg:ml-4 w-[345px] h-[48px] lg:mt-4 mt-4 md:w-[336px] md:h-[48px]md:mt-5 lg:h-[48px] border px-3 rounded-xl">
+      </div>
+      <button class="btn bg-black  lg:ml-0 lg:w-[224px] md:w-[224px] lg:h-[54px] w-[224px] h-[54px] rounded-full mt-5 text-white"> Calculate</button>
+    </div>
+    
+    </section>
+  </div>
+  <img src="images/exit-3025720-2526918.svg" alt="" class="lg:ml-[150px] lg:w-[300px]  lg:mb-16 hidden lg:block">
+</div>
+
+
+<!-- meet teams section -->
+<section class="lg:mb-[100px] md:mb-10 flex flex-col justify-center items-center mb-10">
+  <h1 class="lg:text-5xl md:text-5xl md:w-[576px] w-[318px] lg:w-[353px] text-3xl font-bold text-center">Meet Our Team</h1>
+  <p class="lg:w-[671px] text-[#B9B9B9] text-center md:w-[475px] h-[48px] mt-4">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
 </section>
+<section class="lg:w-[1060px]  lg:ml-[400px] md:h-[604px] h-[1180px] ml-[50px]  lg:h-[604px]">
+  <div class="lg:flex md:flex">
+    <img src="images/trainer1.png" alt="" class="lg:w-[326px] lg:ml-0 md:ml-0 mb-2 lg:mb-0 md:mb-0 ml-[20px] md:w-[199px] w-[313px] rounded-2xl"> 
+  <img src="images/trainer2.png" alt="" class="lg:w-[326px] ml-[20px] w-[313px] mb-2 lg:mb-0 md:mb-0 md:w-[199px] rounded-2xl ">
+  <img src="images/trainer3.png" alt="" class="lg:w-[326px] ml-[20px] w-[313px] mb-2 lg:mb-0 md:mb-0 md:w-[199px] rounded-2xl">
+  </div>
+  <div class="lg:flex md:flex mt-5">
+    <img src="images/trainer4.png" alt="" class="lg:w-[326px] lg:ml-0 md:ml-0 ml-[20px] mb-2 lg:mb-0 md:mb-0 rounded-2xl w-[313px] md:w-[199px]">
+  <img src="images/trainer5.png" alt="" class="lg:w-[326px] ml-[20px] w-[313px] md:w-[199px] mb-2 lg:mb-0 md:mb-0 rounded-2xl">
+  <img src="images/trainer6.png" alt="" class="lg:w-[326px] ml-[20px] w-[313px] md:w-[199px] mb-2 lg:mb-0 md:mb-0  rounded-2xl">
+  </div>
+
+</section>
+<footer class="bg-[#131318] lg:w-full md:mt-[5px] mt-[500px] lg:mt-[100px] lg:h-[454px]">
+  <section class="px-[100px] py-[135px] flex flex-col lg:flex-row lg:justify-between items-center">
+    <div class="mb-8 lg:mb-0">
+      <h1 class="text-white text-3xl mb-3 font-bold">Get In Touch</h1>
+      <p class="text-[#FFFFFF99] mb-5 lg:w-[346px] w-[297px] h-[78px] lg:h-[78px]">Dit amet consectetur. Condimentum adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
+      <div class="flex gap-3 mb-3">
+        <a href=""><i class="fa-regular fa-envelope text-[#FF4240]" aria-hidden="true"></i></a>
+        <p class="text-[#FFFFFF99]">fitness@support.com</p>
+      </div>
+      <div class="flex gap-3">
+        <a href=""><i class="fa-light fa-phone text-[#FF4240]" aria-hidden="true"></i></a>
+        <p class="text-[#FFFFFF99]">0123287361235</p>
+      </div>
+    </div>
+
+    <div class="flex flex-wrap justify-center gap-8 lg:flex-nowrap lg:gap-12 lg:ml-[100px] lg:items-start lg:justify-start">
+      <div>
+        <h1 class="font-semibold mb-5 text-white text-lg">Company</h1>
+        <p class="text-[#FFFFFF99] mb-3 text-sm">About Us</p>
+        <p class="text-[#FFFFFF99] mb-3 text-sm">Leaderships</p>
+        <p class="text-[#FFFFFF99] mb-3 text-sm">Careers</p>
+        <p class="text-[#FFFFFF99] mb-3 text-sm">News &amp; Article</p>
+        <p class="text-[#FFFFFF99] text-sm">Legal Notice</p>
+      </div>
+      <div>
+        <h1 class="font-semibold mb-5 text-white text-lg">Support</h1>
+        <p class="text-[#FFFFFF99] mb-3 text-sm">Help-Center</p>
+        <p class="text-[#FFFFFF99] mb-3 text-sm">FAQ</p>
+        <p class="text-[#FFFFFF99] mb-3 text-sm">Ticket Support</p>
+        <p class="text-[#FFFFFF99] mb-3 text-sm">Contact Us</p>
+      </div>
+      <div class="mb-8 lg:mb-0 mt-10  lg:mt-0 lg:mx-0">
+        <h1 class="font-semibold mb-5 text-white text-lg">Services</h1>
+        <p class="text-[#FFFFFF99] mb-3 text-sm">Academy</p>
+        <p class="text-[#FFFFFF99] mb-3 text-sm">Group Lesson</p>
+        <p class="text-[#FFFFFF99] mb-3 text-sm">Private Lesson</p>
+        <p class="text-[#FFFFFF99] mb-3 text-sm">Hockey's for kids</p>
+        <p class="text-[#FFFFFF99] text-sm">Hockey's for adults</p>
+      </div>
+    </div>
+
+   
+  </section>
+</footer>
+
 
 
 
