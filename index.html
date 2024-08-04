@@ -187,19 +187,19 @@
     </section>
     <section class="mb-[100px] lg:ml-[300px] md:ml-5 ml-5">
       <div>
-      <input type="text" placeholder="Height/cm"  class="lg:w-72 md:w-[336px] md:h-[48px] w-[170px] h-[48px] lg:h-[48px]  border px-3 rounded-xl">
-      <input type="text" placeholder="Weight/kg"  class="lg:w-72 md:w-[336px] md:h-[48px] w-[170px] h-[48px] lg:ml-4 lg:h-[48px]  border px-3 rounded-xl">
+      <input id="height" type="text" placeholder="Height/cm"  class="lg:w-72 md:w-[336px] md:h-[48px] w-[170px] h-[48px] lg:h-[48px]  border px-3 rounded-xl">
+      <input id="weight" type="text" placeholder="Weight/kg"  class="lg:w-72 md:w-[336px] md:h-[48px] w-[170px] h-[48px] lg:ml-4 lg:h-[48px]  border px-3 rounded-xl">
       </div>
       <div class="lg:mt-5 md:mt-5 mt-5 ">
-        <input type="text" placeholder="Age"  class="md:w-[336px] md:h-[48px] w-[170px] h-[48px] lg:w-72 lg:h-[48px]   border px-3 rounded-xl">
-      <input type="text" placeholder="Sex"  class="  md:w-[336px] md:h-[48px] w-[170px] h-[48px] lg:w-72 lg:ml-4 lg:h-[48px]    border px-3 rounded-xl">
+        <input type="text" placeholder="Age"    class="md:w-[336px] md:h-[48px] w-[170px] h-[48px] lg:w-72 lg:h-[48px]   border px-3 rounded-xl">
+      <input type="text" placeholder="Sex"    class="  md:w-[336px] md:h-[48px] w-[170px] h-[48px] lg:w-72 lg:ml-4 lg:h-[48px]    border px-3 rounded-xl">
       </div>
     <div class="">
       <div>
-        <input type="text" placeholder="Your BMI point is "  class="lg:w-72 w-[345px] h-[48px] lg:mt-4 mt-4 md:w-[336px] md:h-[48px] md:mt-5 lg:h-[48px] border px-3 rounded-xl">
-        <input type="text" placeholder="Status is "  class="lg:w-72 lg:ml-4 w-[345px] h-[48px] lg:mt-4 mt-4 md:w-[336px] md:h-[48px]md:mt-5 lg:h-[48px] border px-3 rounded-xl">
+        <input type="text" placeholder="Your BMI point is " id="point"  class="lg:w-72 w-[345px] h-[48px] lg:mt-4 mt-4 md:w-[336px] md:h-[48px] md:mt-5 lg:h-[48px] border px-3 rounded-xl">
+        <input type="text" placeholder="Status is " id="status"  class="lg:w-72 lg:ml-4 w-[345px] h-[48px] lg:mt-4 mt-4 md:w-[336px] md:h-[48px]md:mt-5 lg:h-[48px] border px-3 rounded-xl">
       </div>
-      <button class="btn bg-black  lg:ml-0 lg:w-[224px] md:w-[224px] lg:h-[54px] w-[224px] h-[54px] rounded-full mt-5 text-white"> Calculate</button>
+      <button onclick="calculate()" class="btn bg-black  lg:ml-0 lg:w-[224px] md:w-[224px] lg:h-[54px] w-[224px] h-[54px] rounded-full mt-5 text-white"> Calculate</button>
     </div>
     
     </section>
@@ -277,5 +277,6 @@
 
 
  </main>
+ <script src="scripts/main.js"></script>
 </body>
 </html>
